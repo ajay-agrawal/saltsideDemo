@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SaltsideDemo/SaltsideDetailViewController.m"
-            timestampString = "469912410.71126"
+            timestampString = "469915089.077596"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "-createImageView"
             landmarkType = "5">
          </BreakpointContent>

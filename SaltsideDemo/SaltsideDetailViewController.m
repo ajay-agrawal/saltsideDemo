@@ -17,6 +17,29 @@
     [self createImageView];
 }
 
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.view setAlpha:0];
+}
+
+- (void) viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.view setAlpha:1];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma Mark- Memory method
+
+-(void)dealloc{
+    self.detailViewData = nil;
+}
+
+#pragma mark- Custom method
+
 /**
  *Author: Ajay Agrawal
  *Description: Create/Display the image view
@@ -40,13 +63,8 @@
                              }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
--(void)dealloc{
-    self.detailViewData = nil;
-}
+
+
 
 @end

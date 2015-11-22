@@ -170,22 +170,22 @@
 		84899BD71C01A3A50081C90A /* SaltsideDemo */ = {
 			isa = PBXGroup;
 			children = (
-				84899BDB1C01A3A50081C90A /* AppDelegate.h */,
-				84899BDC1C01A3A50081C90A /* AppDelegate.m */,
 				84E6B8CB1C0233E0005A5CD4 /* Images */,
 				84899CB01C0226CF0081C90A /* External */,
 				84899C0B1C01CFA70081C90A /* Common */,
+				84899BDB1C01A3A50081C90A /* AppDelegate.h */,
+				84899BDC1C01A3A50081C90A /* AppDelegate.m */,
 				84899BDE1C01A3A50081C90A /* SaltsideListTableViewController.h */,
 				84899BDF1C01A3A50081C90A /* SaltsideListTableViewController.m */,
+				84899C211C0208990081C90A /* ListCell.h */,
+				84899C221C0208990081C90A /* ListCell.m */,
+				84899CAB1C0224E20081C90A /* SaltsideDetailViewController.h */,
+				84899CAC1C0224E20081C90A /* SaltsideDetailViewController.m */,
 				84899BE11C01A3A50081C90A /* Main.storyboard */,
 				84899BE41C01A3A50081C90A /* Assets.xcassets */,
 				84899BE61C01A3A50081C90A /* LaunchScreen.storyboard */,
 				84899BE91C01A3A50081C90A /* Info.plist */,
 				84899BD81C01A3A50081C90A /* Supporting Files */,
-				84899C211C0208990081C90A /* ListCell.h */,
-				84899C221C0208990081C90A /* ListCell.m */,
-				84899CAB1C0224E20081C90A /* SaltsideDetailViewController.h */,
-				84899CAC1C0224E20081C90A /* SaltsideDetailViewController.m */,
 			);
 			path = SaltsideDemo;
 			sourceTree = "<group>";
