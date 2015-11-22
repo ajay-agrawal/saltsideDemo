@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SaltsideDetailViewController.h
 //  SaltsideDemo
 //
 //  Created by Ajay Agarwal on 11/22/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SaltsideDetailViewController : UIViewController
 
-
+@property(nonatomic, strong) NSDictionary *detailViewData;
 @end
-

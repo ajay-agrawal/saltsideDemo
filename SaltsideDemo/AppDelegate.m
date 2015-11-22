@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SaltsideListTableViewController.h"
 @interface AppDelegate ()
 
+@property(nonatomic, strong) UINavigationController *mainNavigationController;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    SaltsideListTableViewController *vc = [[SaltsideListTableViewController alloc] init];
+    //Creating Navigation controller for list and detail view
+    UINavigationController *aNavigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.mainNavigationController = aNavigationController;
+    [self.window addSubview:self.mainNavigationController.view];
+    self.window.rootViewController = self.mainNavigationController;
+    [self.window setBackgroundColor:[UIColor whiteColor]];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
