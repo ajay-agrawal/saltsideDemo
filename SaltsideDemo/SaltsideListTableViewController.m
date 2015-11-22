@@ -170,7 +170,6 @@
 
 #pragma mark- UITableViewDelegate Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    NSLog(@"%lu ===== ", (unsigned long)[self.listData count]);
     return [self.listData count];
 }
 
